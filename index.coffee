@@ -3,7 +3,7 @@ debug      = require('debug')('multer:gc')
 fs         = require('fs')
 onFinished = require('on-finished')
 
-module.exports = (req, res, next) ->
+module.exports = -> (req, res, next) ->
   cleanFn = ->
     list = []
 
