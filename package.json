@@ -1,0 +1,38 @@
+{
+  "name": "multer-gc",
+  "version": "0.0.1",
+  "description": "Express middleware to clean req.files and req.file after request end",
+  "author": {
+    "name": "Ricardo Ferro",
+    "email": "ricardo.ferro@gmail.com"
+  },
+  "homepage": "https://github.com/rferro/multer-gc",
+  "bugs": "https://github.com/rferro/multer-gc/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rferro/multer-gc"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "connect",
+    "multer",
+    "req.files",
+    "req.file",
+    "files",
+    "file",
+    "clean",
+    "upload"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "on-finished": "^2.3.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  }
+}
