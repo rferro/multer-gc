@@ -29,7 +29,7 @@ module.exports = -> (req, res, next) ->
           else
             debug "#{file.fieldname} #{file.path} removed"
 
-    return null
+    return
 
   res.on 'error', cleanFn
   onFinished res, cleanFn
