@@ -11,9 +11,9 @@ npm install --save multer-gc
 ## Example
 
 ```js
-var express   = require("express")
+var express  = require("express")
 var multergc = require("multer-gc")
-var app       = express();
+var app      = express();
 
 app.use(multergc());
 
