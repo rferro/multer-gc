@@ -1,6 +1,6 @@
 {
   "name": "multer-gc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Express middleware to clean req.files and req.file after request end",
   "author": {
     "name": "Ricardo Ferro",
